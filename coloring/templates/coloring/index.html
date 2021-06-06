@@ -56,10 +56,10 @@
 			var canvas = document.getElementById('myCanvas');
 
 			// coloring page
-			var mandala = {
+			var Asset = {
 				item: null,
 				lastClicked: null,
-				filePath: '/static/coloring/images/mandala-freepik.svg'
+				filePath: '/static/coloring/images/Asset 1.svg'
 			};	
 
 			// color palette
@@ -78,7 +78,7 @@
         
         // TODO1:
         // Using paper.js, create a rectangle on the center of the screen 
-        // (place the rectangle over the mandala, no need to remove the mandala first). Fill color red. 
+        // (place the rectangle over the Asset, no need to remove the Asset first). Fill color red. 
         var rect = new paper.Rectangle(new Point(100, 100), new Size(500, 500));
         var newPath = new Path.Rectangle(rect);
         newPath.fillColor = "red";
